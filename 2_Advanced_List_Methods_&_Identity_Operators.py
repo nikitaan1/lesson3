@@ -3,12 +3,14 @@
 submitted = ["Alice", "Bob", "Charlie", "David"]
 attended = ["Charlie", "Eve", "Alice", "Frank"]
 
-sub_att = submitted + attended
-
-
-submitted = sub_att.count("Alice"), sub_att.count("Bob"), sub_att.count("Charlie"), sub_att.count("David")
-
-print(submitted)
+if submitted[0] in attended:
+    print("Alice")
+if submitted[1] in attended: 
+    print("Bob")
+if submitted[2] in attended: 
+    print("Charlie")
+if submitted[3] in attended:
+    print("David")
 
 #Task 2
 
