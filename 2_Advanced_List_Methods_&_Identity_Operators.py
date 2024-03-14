@@ -8,7 +8,6 @@ sub_att = submitted + attended
 
 submitted = sub_att.count("Alice"), sub_att.count("Bob"), sub_att.count("Charlie"), sub_att.count("David")
 
-
 print(submitted)
 
 #Task 2
@@ -16,7 +15,10 @@ print(submitted)
 submitted = ["Alice", "Bob", "Charlie", "David"]
 attended = ["Charlie", "Eve", "Alice", "Frank"]
 
-print(submitted == attended)
+if "Alice" in attended and "Bob" in attended and  "Charlie" in attended and  "David" in attended:
+    print(True)
+else:
+    print(False)
 
 #Task 3
 
