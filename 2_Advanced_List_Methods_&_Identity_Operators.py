@@ -16,9 +16,9 @@ submitted = ["Alice", "Bob", "Charlie", "David"]
 attended = ["Charlie", "Eve", "Alice", "Frank"]
 
 if "Alice" in attended and "Bob" in attended and  "Charlie" in attended and  "David" in attended:
-    print(True)
+    print("Lists Are The Same")
 else:
-    print(False)
+    print("Listis Are Different")
 
 #Task 3
 
